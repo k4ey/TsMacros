@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"esbuild": "0.25.8"
+	},
+	"scripts": {
+		"build": "esbuild ./src/index.ts --bundle --outfile=./dist/out.js --minify",
+		"dev": "esbuild ./src/index.ts --bundle --outfile=./dist/out.js --minify --watch "
+	},
+	"dependencies": {
+	}
+}
